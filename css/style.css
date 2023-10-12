@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #444;
+}
+button.accordion-button.collapsed {
+    margin: 10px 0;
+}
+button.accordion-button {
+    margin-top: 10px;
+}
+.accordion-button:not(.collapsed) {
+    background: transparent;
+    box-shadow: none;
+    color: red;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
